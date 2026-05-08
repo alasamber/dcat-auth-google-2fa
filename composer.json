@@ -1,5 +1,5 @@
 {
-    "name": "asundust/dcat-auth-google-2fa",
+    "name": "alasamber/dcat-auth-google-2fa",
     "alias": "Auth Google 2FA两步验证",
     "description": "Dcat-Admin auth verification by Google 2FA / Dcat-Admin 登录 Google 2FA两步验证",
     "type": "library",
@@ -12,16 +12,17 @@
         "login",
         "captcha"
     ],
-    "homepage": "https://github.com/asundust/dcat-auth-google-2fa",
+    "homepage": "https://github.com/alasamber/dcat-auth-google-2fa",
     "license": "MIT",
     "authors": [
         {
-            "name": "asundust",
-            "email": "asundust@qq.com"
+            "name": "alasamber",
+            "email": "vivian666@mr.email"
         }
     ],
     "require": {
         "php": ">=7.1.0",
+        "bacon/bacon-qr-code": "^3.0",
         "pragmarx/google2fa-qrcode": "^2.0|^3.0"
     },
     "autoload": {
@@ -30,10 +31,10 @@
         }
     },
     "extra": {
-        "dcat-admin": "Asundust\\DcatAuthGoogle2Fa\\DcatAuthGoogle2FaServiceProvider",
+        "dcat-admin": "Alasamber\\DcatAuthGoogle2Fa\\DcatAuthGoogle2FaServiceProvider",
         "laravel": {
             "providers": [
-                "Asundust\\DcatAuthGoogle2Fa\\DcatAuthGoogle2FaServiceProvider"
+                "Alasamber\\DcatAuthGoogle2Fa\\DcatAuthGoogle2FaServiceProvider"
             ]
         }
     }
