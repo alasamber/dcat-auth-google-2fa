@@ -1,6 +1,6 @@
 <?php
 
-namespace Asundust\DcatAuthGoogle2Fa;
+namespace Alasamber\DcatAuthGoogle2Fa;
 
 use Dcat\Admin\Extend\ServiceProvider;
 

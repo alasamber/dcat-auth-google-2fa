@@ -1,11 +1,11 @@
 <?php
 
-namespace Asundust\DcatAuthGoogle2Fa\Http\Controllers;
+namespace Alasamber\DcatAuthGoogle2Fa\Http\Controllers;
 
-use Asundust\DcatAuthGoogle2Fa\DcatAuthGoogle2FaServiceProvider;
-use Asundust\DcatAuthGoogle2Fa\Http\Controllers\Actions\BindRowAction;
-use Asundust\DcatAuthGoogle2Fa\Http\Controllers\Actions\UnbindRowAction;
-use Asundust\DcatAuthGoogle2Fa\Models\AdminUser;
+use Alasamber\DcatAuthGoogle2Fa\DcatAuthGoogle2FaServiceProvider;
+use Alasamber\DcatAuthGoogle2Fa\Http\Controllers\Actions\BindRowAction;
+use Alasamber\DcatAuthGoogle2Fa\Http\Controllers\Actions\UnbindRowAction;
+use Alasamber\DcatAuthGoogle2Fa\Models\AdminUser;
 use Dcat\Admin\Form;
 use Dcat\Admin\Grid;
 use Dcat\Admin\Http\Controllers\UserController;

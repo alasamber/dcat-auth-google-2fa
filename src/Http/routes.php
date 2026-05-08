@@ -1,7 +1,7 @@
 <?php
 
-use Asundust\DcatAuthGoogle2Fa\Http\Controllers\DcatAuthGoogle2FaAuthController;
-use Asundust\DcatAuthGoogle2Fa\Http\Controllers\DcatAuthGoogle2FaUserController;
+use Alasamber\DcatAuthGoogle2Fa\Http\Controllers\DcatAuthGoogle2FaAuthController;
+use Alasamber\DcatAuthGoogle2Fa\Http\Controllers\DcatAuthGoogle2FaUserController;
 use Illuminate\Support\Facades\Route;
 
 if (config('admin.auth.enable', true)) {

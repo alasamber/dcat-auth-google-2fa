@@ -1,6 +1,6 @@
 <?php
 
-namespace Asundust\DcatAuthGoogle2Fa\Models;
+namespace Alasamber\DcatAuthGoogle2Fa\Models;
 
 use Dcat\Admin\Models\Administrator;
 

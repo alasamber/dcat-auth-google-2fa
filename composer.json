@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Asundust\\DcatAuthGoogle2Fa\\": "src/"
+            "Alasamber\\DcatAuthGoogle2Fa\\": "src/"
         }
     },
     "extra": {

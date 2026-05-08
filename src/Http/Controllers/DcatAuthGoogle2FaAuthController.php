@@ -1,9 +1,9 @@
 <?php
 
-namespace Asundust\DcatAuthGoogle2Fa\Http\Controllers;
+namespace Alasamber\DcatAuthGoogle2Fa\Http\Controllers;
 
-use Asundust\DcatAuthGoogle2Fa\DcatAuthGoogle2FaServiceProvider;
-use Asundust\DcatAuthGoogle2Fa\Models\AdminUser;
+use Alasamber\DcatAuthGoogle2Fa\DcatAuthGoogle2FaServiceProvider;
+use Alasamber\DcatAuthGoogle2Fa\Models\AdminUser;
 use Dcat\Admin\Admin;
 use Dcat\Admin\Form;
 use Dcat\Admin\Http\Controllers\AuthController as BaseAuthController;
